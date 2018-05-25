@@ -1,0 +1,41 @@
+#text{
+  width: 93%;
+  height: 90%;
+  font-size: 20px;
+  float: left;
+}
+#submit{
+  width: 5%;
+  height: 100%;
+  font-size: 20px;
+  position: relative;
+  left: 20px;
+}
+#botMessages{
+  top: 20px;
+  position: relative;
+  font-size: 20px;
+}
+#userMessages{
+  top: 20px;
+  position: relative;
+  font-size: 20px;
+}
+#messages{
+  border-style: double;
+  overflow-y: scroll;
+  position: absolute;
+  width: 96%;
+  height: 90%;
+  left: 1%;
+}
+#textbg{
+  width: 99%;
+  height: 3%;
+  position: absolute;
+  bottom: 0px;
+  padding-top:.5%;
+  padding-left:1%;
+  padding-bottom: .5%;
+  background-color: rgba(0,0,0,.2);
+}
