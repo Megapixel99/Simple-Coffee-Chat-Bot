@@ -1,27 +1,27 @@
 #text{
   width: 93%;
   height: 90%;
-  font-size: 20px;
+  font-size: 22px;
   float: left;
 }
 #submit{
   width: 5%;
   height: 100%;
-  font-size: 20px;
+  font-size: 22px;
   position: relative;
   left: 20px;
 }
 #botMessages{
   top: 20px;
   position: relative;
-  font-size: 20px;
+  font-size: 22px;
   padding-right:5px;
   margin-right: 10px;
 }
 #userMessages{
   top: 20px;
   position: relative;
-  font-size: 20px;
+  font-size: 22px;
 }
 #messages{
   border-style: double;

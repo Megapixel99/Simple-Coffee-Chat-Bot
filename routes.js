@@ -22,13 +22,20 @@ router.get("/", function(req,res) {
 function BotLogic(val) {
   if (val == null || val == undefined){
   session = true;
-    return ["Hello what would you like to drink?", "boolean", "Tea", "Coffee"];}
-      else if (val == "Tea")
-        return ["What type of tea would you like?", "boolean", "res1", "res2"];
-          else if (val && session == true)
-            return ["How many sweeteners would you like?", "number"];
-    else if (val == "Coffee")
-      return ["What type of coffee would you like?", "res1", "res2"];
+    return ["Hello what would you like to drink?", "boolean", "Tea", "Coffee"];
+  }
+      if (val == "Tea"){
+        return ["What type of tea would you like?", "boolean", "Iced", "Brewed"];
+      }
+          if (val == "Iced"){
+            return ["How many sweeteners would you like?", "text"];
+          }
+          else if (val == "Brewed"){
+            return ["How many sweeteners would you like?", "text"];
+          }
+    else if (val == "Coffee"){
+      return ["What type of coffee would you like?", "Black", "res2"];
+    }
 }
 
 module.exports = router;
